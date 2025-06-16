@@ -1,0 +1,97 @@
+$date
+	Mon Jun 16 03:27:55 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module vending_tb $end
+$var wire 2 ! change [1:0] $end
+$var wire 1 " out $end
+$var reg 1 # clk $end
+$var reg 2 $ coin [1:0] $end
+$var reg 1 % reset $end
+$scope module uut $end
+$var wire 1 & clk $end
+$var wire 2 ' coin [1:0] $end
+$var wire 1 ( reset $end
+$var reg 2 ) change [1:0] $end
+$var reg 2 * next_state [1:0] $end
+$var reg 1 + out $end
+$var reg 2 , state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+0+
+b0 *
+b0 )
+1(
+b0 '
+0&
+1%
+b0 $
+0#
+0"
+b0 !
+$end
+#10
+0%
+0(
+1#
+1&
+#20
+0#
+0&
+#30
+b1 *
+1#
+1&
+b1 $
+b1 '
+#40
+0#
+0&
+#50
+b1 ,
+1#
+1&
+b0 $
+b0 '
+#60
+0#
+0&
+#70
+b10 *
+1#
+1&
+b1 $
+b1 '
+#80
+0#
+0&
+#90
+b1 )
+b1 !
+1+
+1"
+b1 *
+b10 ,
+1#
+1&
+b10 $
+b10 '
+#100
+0#
+0&
+#110
+b0 )
+b0 !
+b0 *
+b1 ,
+1#
+1&
